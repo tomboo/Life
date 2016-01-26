@@ -39,6 +39,7 @@ def life(X, steps):
 
 
 def init():
+    # TODO: Read from file
     X = np.zeros((10, 10), dtype=np.int8)
 
     # Blinker
